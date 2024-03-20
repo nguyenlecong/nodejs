@@ -1,0 +1,7 @@
+- <b>Node.js</b> is a free, open-source, cross-platform <b>JavaScript runtime</b> environment that lets developers create servers, web apps, command line tools and scripts.
+- <b>HTTP</b> is an application layer protocol designed to <b>transfer information</b> between networked devices and runs on top of other layers of the network protocol stack.
+- <b>SSR (Server Side Rendering)</b> is well-suited for <b>content-heavy websites</b> where <b>SEO</b> is critical and <b>initial load</b> performance matters
+- <b>CSR (Client Side Rendering)</b> is ideal for <b>dynamic, interactive web applications</b> where content changes frequently without full-page reloads
+- <b>Express</b> is a Fast, unopinionated, minimalist <b>web framework</b> for Node.js
+- <b>Nodemon</b> is a tool that helps develop Node.js based applications by <b>automatically restarting</b> the node application when file changes in the directory are detected.
+- <b>Morgan</b> is a HTTP request <b>logger middleware</b> for node.js
