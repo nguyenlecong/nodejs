@@ -18,3 +18,7 @@
   - Model: Interact with resources
   - Controller: Transshipment
   - View: HTML, CSS
+- <b>Code Formatter</b>
+  - Prettier: Opinionated Code Formatter
+  - Lint-staged: Run linters on git staged files
+  - Husky: Improves your commits
