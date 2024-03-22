@@ -15,3 +15,6 @@
   - Form default behavior
 - <b>POST method</b>
 - <b>MVC model</b>
+  - Model: Interact with resources
+  - Controller: Transshipment
+  - View: HTML, CSS
