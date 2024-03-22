@@ -7,5 +7,5 @@
 - tion when file changes in the directory are detected.
 - <b>Morgan</b> is a HTTP request <b>logger middleware</b> for node.js
 - <b>Template engine (handlebars)</b> provides the power necessary to let you build <b>semantic templates</b> effectively with no frustration
-- <b>Static files & SCSS</b> Sass (Syntactically Awesome Style Sheets) is the most mature, stable, and powerful professional grade CSS extension language in the world.
-- <b>Boostrap</b>
+- <b>Static files & SCSS</b> Sass (Syntactically Awesome Style Sheets) is the most mature, stable, and powerful professional grade <b>CSS extension language</b> in the world.
+- <b>Boostrap</b> Powerful, extensible, and feature-packed <b>frontend toolkit</b>. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
