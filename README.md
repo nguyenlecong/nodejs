@@ -10,4 +10,8 @@
 - <b>Static files & SCSS</b> Sass (Syntactically Awesome Style Sheets) is the most mature, stable, and powerful professional grade <b>CSS extension language</b> in the world.
 - <b>Boostrap</b> Powerful, extensible, and feature-packed <b>frontend toolkit</b>. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
 - <b>Basic routing</b> Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
-- 
+- <b>GET method</b>
+  - Query prameters
+  - Form default behavior
+- <b>POST method</b>
+- <b>MVC model</b>
