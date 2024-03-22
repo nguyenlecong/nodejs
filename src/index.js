@@ -7,8 +7,12 @@ const port = 3000
 
 app.use(express.static(path.join(__dirname, 'public')))
 
-// HTTP logger
+app.use(express.urlencoded({
+    extended: true
+}))
+app.use(express.json()) // XMLHttpRequest, Fetch, Ajax...
 
+// HTTP logger
 app.use(morgan('combined'))
 
 // Template engine
@@ -28,7 +32,14 @@ app.get('/news', (req, res) => {
 })
 
 app.get('/search', (req, res) => {
+    // console.log(req.query)
+    // console.log(req.query.q)
     res.render('search')
+})
+
+app.post('/search', (req, res) => {
+    // console.log(req.body)
+    // console.log(req.body.q)
 })
 
 app.listen(port, () => {
