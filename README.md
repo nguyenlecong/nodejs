@@ -22,3 +22,5 @@
   - Prettier: Opinionated Code Formatter
   - Lint-staged: Run linters on git staged files
   - Husky: Improves your commits
+- <b>MongoDB Database</b>
+  - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment
