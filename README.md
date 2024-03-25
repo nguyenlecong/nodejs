@@ -24,3 +24,8 @@
   - Husky: Improves your commits
 - <b>MongoDB Database</b>
   - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment
+- <b>CRUD</b>
+  - <b>C</b>reate
+  - <b>R</b>ead
+  - <b>U</b>pdate
+  - <b>D</b>elete
