@@ -26,6 +26,7 @@
   - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment
 - <b>CRUD</b>
   - <b>C</b>reate
+    - mongoose slug generator
   - <b>R</b>ead
   - <b>U</b>pdate
   - <b>D</b>elete

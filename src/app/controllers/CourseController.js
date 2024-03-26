@@ -10,6 +10,20 @@ class SiteController {
             })
             .catch(next)
     }
+
+    // [GET] /courses/create
+    create(req, res, next) {
+        res.render('courses/create')
+    }
+
+    // [POST] /courses/store
+    store(req, res, next) {
+        const course = new Course(req.body)
+        course.save()
+        .then(() => res.redirect('/'))
+        .catch(error => {})
+
+    }
 }
 
 module.exports = new SiteController();
