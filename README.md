@@ -32,3 +32,7 @@
     - override method
   - <b>D</b>elete
     - UX: need confirm step
+    - Soft delete:
+      - Delete (soft)
+      - Restore
+      - Force delete

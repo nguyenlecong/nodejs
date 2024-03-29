@@ -1,30 +1,40 @@
 <div class="mt-4">
+  <div>
     <h3>My Courses</h2>
+    <a href="/me/trash/courses">Trash</a>
+  </div>
 
-    <table class="table mt-4">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Level</th>
-                <th scope="col" colspan="2">Created Time</th>
-            </tr>
-        </thead>
-        <tbody>
-            {{#each courses}}
-            <tr>
-                <th scope="row">{{sum @index 1}}</th>
-                <td>{{this.name}}</td>
-                <td>{{this.level}}</td>
-                <td>{{this.createdAt}}</td>
-                <td>
-                    <a href="/courses/{{this._id}}/edit" class="btn btn-link">Update</a>
-                    <a href="" class="btn btn-link" data-bs-toggle="modal" data-id="{{this._id}}" data-bs-target="#delete-course-modal">Delete</a>
-                </td>
-            </tr>
-            {{/each}}
-        </tbody>
-    </table>
+  <table class="table mt-4">
+      <thead>
+          <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Level</th>
+              <th scope="col" colspan="2">Created Time</th>
+          </tr>
+      </thead>
+      <tbody>
+          {{#each courses}}
+          <tr>
+              <th scope="row">{{sum @index 1}}</th>
+              <td>{{this.name}}</td>
+              <td>{{this.level}}</td>
+              <td>{{this.createdAt}}</td>
+              <td>
+                  <a href="/courses/{{this._id}}/edit" class="btn btn-link">Update</a>
+                  <a href="" class="btn btn-link" data-bs-toggle="modal" data-id="{{this._id}}" data-bs-target="#delete-course-modal">Delete</a>
+              </td>
+          </tr>
+          {{else}}
+          <tr>
+            <td colspan="5" class="text-center">
+              There is nothing here! Hehehehe.
+              <a href="/courses/create">Add course</a>
+            </td>
+          </tr>
+          {{/each}}
+      </tbody>
+  </table>
 </div>
 
 {{!-- Delete hidden form --}}
@@ -65,7 +75,6 @@
   const btnDeleteCourse = document.getElementById('btn-delete-course')
   btnDeleteCourse.onclick = () => {
     deleteForm.action = '/courses/' + courseId + '?_method=DELETE'
-    console.log(courseId)
     deleteForm.submit()
   }
 </script>
