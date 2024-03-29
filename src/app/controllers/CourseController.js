@@ -38,6 +38,13 @@ class SiteController {
         .then(() => res.redirect('/me/stored/courses'))
         .catch(next)
     }
+
+    // [DELETE] /courses/:id
+    destroy(req, res, next) {
+        Course.deleteOne({ _id: req.params.id }, req.body)
+        .then(() => res.redirect('back'))
+        .catch(next)
+    }
 }
 
 module.exports = new SiteController();

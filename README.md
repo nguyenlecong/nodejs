@@ -29,4 +29,6 @@
     - mongoose slug generator
   - <b>R</b>ead
   - <b>U</b>pdate
+    - override method
   - <b>D</b>elete
+    - UX: need confirm step
