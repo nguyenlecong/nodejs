@@ -59,8 +59,6 @@ class SiteController {
         .then(() => res.redirect('back'))
         .catch(next)
     }
-
-    // TODO: [Bug] Resroted but delete deleted/deletedAt fields 
 }
 
 module.exports = new SiteController();
