@@ -3,8 +3,7 @@
 - <b>SSR (Server Side Rendering)</b> is well-suited for <b>content-heavy websites</b> where <b>SEO</b> is critical and <b>initial load</b> performance matters
 - <b>CSR (Client Side Rendering)</b> is ideal for <b>dynamic, interactive web applications</b> where content changes frequently without full-page reloads
 - <b>Express</b> is a Fast, unopinionated, minimalist <b>web framework</b> for Node.js
-- <b>Nodemon</b> is a tool that helps develop Node.js based applications by <b>automatically restarting</b> the node applica
-- tion when file changes in the directory are detected.
+- <b>Nodemon</b> is a tool that helps develop Node.js based applications by <b>automatically restarting</b> the node application when file changes in the directory are detected.
 - <b>Morgan</b> is a HTTP request <b>logger middleware</b> for node.js
 - <b>Template engine (handlebars)</b> provides the power necessary to let you build <b>semantic templates</b> effectively with no frustration
 - <b>Static files & SCSS</b> Sass (Syntactically Awesome Style Sheets) is the most mature, stable, and powerful professional grade <b>CSS extension language</b> in the world.
@@ -39,4 +38,3 @@
 - <b>Sort middleware</b>
   - <del>Open Iconic</del>
   - Font Awesome is the Internet's icon library and toolkit
-  - 

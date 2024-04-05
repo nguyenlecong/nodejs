@@ -5,6 +5,10 @@ module.exports = function sortMiddleware(req, res, next) {
     }
     
     if (req.query.hasOwnProperty('_sort')) {
+        const currentType = req.query.type
+        const isValidType = ['asc', 'desc'].includes(currentType)
+        req.query.type = isValidType ? currentType : 'desc'
+
         // res.locals._sort.enable = true
         // res.locals._sort.type = req.query.type 
         // res.locals._sort.column = req.query.column 
