@@ -38,3 +38,5 @@
 - <b>Sort middleware</b>
   - <del>Open Iconic</del>
   - Font Awesome is the Internet's icon library and toolkit
+- <b>Auto increment id field</b>
+  - mongoose-sequence: Sequence and autoincrement handling for mongoose

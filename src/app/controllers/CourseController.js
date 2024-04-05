@@ -18,10 +18,16 @@ class SiteController {
 
     // [POST] /courses/store
     store(req, res, next) {
+        // Course.findOne({})
+        //     .sort({ _id: 'desc'})
+        //     .then(lastestCourse => {
+        //         req.body._id = lastestCourse._id + 1
+        //     })
+
         const course = new Course(req.body)
         course.save()
         .then(() => res.redirect('/me/stored/courses'))
-        .catch(error => {})
+        .catch(next)
     }
 
     // [GET] /courses/:id/edit
