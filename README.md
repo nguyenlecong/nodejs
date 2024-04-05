@@ -36,3 +36,7 @@
       - Delete (soft)
       - Restore
       - Force delete
+- <b>Sort middleware</b>
+  - <del>Open Iconic</del>
+  - Font Awesome is the Internet's icon library and toolkit
+  - 

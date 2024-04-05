@@ -29,9 +29,16 @@
           <tr>
               <th></th>
               <th scope="col">#</th>
-              <th scope="col">Name</th>
-              <th scope="col">Level</th>
-              <th scope="col" colspan="2">Created Time</th>
+              <th scope="col">
+                Name
+                {{{sorttable 'name' _sort}}}
+              </th>
+              <th scope="col">Level
+                {{{sorttable 'level' _sort}}}
+              </th>
+              <th scope="col" colspan="2">Created Time
+                {{{sorttable 'createdAt' _sort}}}
+              </th>
           </tr>
       </thead>
       <tbody>
