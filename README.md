@@ -1,3 +1,4 @@
+# Node.js[^1]
 - <b>Node.js</b> is a free, open-source, cross-platform <b>JavaScript runtime</b> environment that lets developers create servers, web apps, command line tools and scripts.
 - <b>HTTP</b> is an application layer protocol designed to <b>transfer information</b> between networked devices and runs on top of other layers of the network protocol stack.
 - <b>SSR (Server Side Rendering)</b> is well-suited for <b>content-heavy websites</b> where <b>SEO</b> is critical and <b>initial load</b> performance matters
@@ -40,3 +41,5 @@
   - Font Awesome is the Internet's icon library and toolkit
 - <b>Auto increment id field</b>
   - mongoose-sequence: Sequence and autoincrement handling for mongoose
+
+[^1]: [NodeJS & ExpressJS](https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3)
